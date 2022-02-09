@@ -14,13 +14,13 @@ int is_composite(int n)
     if(n%i==0)
     {
       composite=1;
-      break;
+      //break;
       return 1;
     }
     else
     {
      composite=2;
-     break;
+    // break;
      return 2;
     }
   }
